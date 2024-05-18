@@ -1,0 +1,123 @@
+
+#cabecera{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#menu{
+    display: flex;
+    margin: 10px;
+    align-items: center;
+    flex-direction: row;
+}
+#icono1{
+    justify-content: center;
+    font-size: smaller;
+    padding: 90px;
+    color: darkslategray;
+    
+}
+#icono2{
+    justify-content: center;
+    padding: 90px;
+    font-size: smaller;
+}
+#icono3{
+    padding: 90px;
+    font-size: smaller;
+    
+}
+#menu ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   justify-content: center;
+  list-style-type: none;
+  font-size: 10pt;
+  height: 100%;
+}
+#menu a{
+    padding: 10px 40px;
+    border-radius: 80px;
+    background-color: gray;
+    text-decoration: none;
+    color: darkslategray;
+
+}
+#uno{
+    display: flex;
+   flex-direction: row;
+   justify-content: center;
+   
+   
+}
+#img1{
+    float: left;
+    margin-right: 50px;
+}
+#hijo2 a {
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: gray;
+    padding: 10px;
+    color: darkslategray;
+    
+}
+#hijo2{
+    height: 300px;
+    width:300px ;
+    
+    
+}
+#hijo2 ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    
+    
+    
+}
+h1{
+   
+    text-align: center;
+    
+}
+#dos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#hijo3{
+    float: left;
+   
+    height: 300x;
+    width: 300px;
+}
+#hijo3 ul{
+    list-style-type: none;
+    
+}
+
+
+#hijo3 a{
+    border-radius: 10px;
+    background-color: gray;
+    padding: 10px;
+    background-color: darkslategray;
+    color: antiquewhite;
+    text-decoration: none;
+}
+#cabecera2 ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+
+}
+#pie{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
